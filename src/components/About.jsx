@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-[88vh] bg-orange-50 text-black'>
+    <div name='about' className='w-full h-[94vh] bg-orange-50 text-black'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>
@@ -14,7 +14,7 @@ const About = () => {
           <div></div>
         </div>
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-          <div className='sm:text-right text-3xl font-serif'>
+          <div className='sm:text-right'>
             <p>
               日本アルプスの城下町、松本市にオフィスを構えています。
               <br />

@@ -15,7 +15,7 @@ const Home = () => {
           地域に根ざしたサービス
         </h2>
         <p className='text-black py-4 max-w-[700px]'>
-          合同会社カスタムラボは、地元長野県の特産品を扱う、地域一体型の事業を展開しています。
+          合同会社カスタムラボは、地元長野県の商品を扱う、地域一体型の事業を展開しています。
           <br />
           詳細は
           <Link to='skills' smooth={true} duration={500}>
@@ -24,7 +24,9 @@ const Home = () => {
         </p>
         <div>
           <button className='text-white group border-2 border-orange-100 rounded-md font-bold px-6 py-3 my-2 flex items:center bg-orange-400 hover:bg-orange-300 hover:border-orange-300'>
-            CUSTOM LABOについて知る{' '}
+            <Link to='skills' smooth={true} duration={500}>
+              商品について知る{' '}
+            </Link>
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3 mt-1' />
             </span>
