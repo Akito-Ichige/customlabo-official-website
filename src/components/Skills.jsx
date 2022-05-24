@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <div
       name='skills'
-      className='w-full h-[186vh] mt-40 bg-orange-50 text-black'
+      className='w-full h-[152vh] mt-40 bg-orange-50 text-black'
     >
       {/* container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -20,55 +20,11 @@ const Skills = () => {
           <p className='text-4xl font-bold inline border-b-4 border-orange-400 text-black'>
             Products
           </p>
-          <p className='py-4'>価格は配送料込み(790円)で表示されます。</p>
-          <br />
-          <p>
-            ※決済にはstripeを使用しています。当決済を利用する際に収集される情報については、以下の規約をご確認ください。
-          </p>
-          <br />
-          <ul>
-            <li>
-              <a
-                className='text-blue-500 font-bold'
-                href='https://www.kiyac.app/c56VVu9sjSVpeqpuucAX/YGcaR8HDAICv6jJiFfXvΩ'
-              >
-                利用規約
-              </a>
-            </li>
-            <li>
-              <a
-                className='text-blue-500 font-bold'
-                href='https://www.kiyac.app/SCTLaw/YlxfZGxtsIvGLGl2eLPl'
-              >
-                特定商取引法に基づく表示
-              </a>
-            </li>
-            <li>
-              <a
-                className='text-blue-500 font-bold'
-                href='https://www.kiyac.app/privacypolicy/4hbDC5xDWUDKgwHY2o6U'
-              >
-                プライバシーポリシー
-              </a>
-            </li>
-            <li>
-              <a
-                className='text-blue-500 font-bold'
-                href='https://www.kiyac.app/Bj0pItlaVnFFbej0piQv/mAGxncXPQ6juBUA4vA4m'
-              >
-                配送ポリシー
-              </a>
-            </li>
-            <li>
-              <a
-                className='text-blue-500 font-bold'
-                href='https://www.kiyac.app/WZO2Kn1iYqhHzz9S93bU/QrVyJ2zFaWq0OVaMRJyl'
-              >
-                返金ポリシー
-              </a>
-            </li>
-          </ul>
         </div>
+        <br />
+        <h2 className='text-blue-400 text-2xl'>
+          <a href='https://customlabo.official.ec/'>公式ECサイトはこちら</a>
+        </h2>
         <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center mb-8 py-8'>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto ' src={AMAZAKE} alt='甘酒' />
@@ -77,7 +33,7 @@ const Skills = () => {
               <br />
               <a
                 className='ml2 text-blue-500'
-                href='https://buy.stripe.com/4gw16s1pj2Mr5nG28d'
+                href='https://customlabo.official.ec/items/62961746'
               >
                 購入する
               </a>
@@ -90,7 +46,7 @@ const Skills = () => {
               <br />
               <a
                 className='ml2 text-blue-500'
-                href='https://buy.stripe.com/fZe6qMc3XgDh7vOdQW'
+                href='https://customlabo.official.ec/items/62961975'
               >
                 購入する
               </a>
@@ -103,7 +59,7 @@ const Skills = () => {
               <br />
               <a
                 className='ml2 text-blue-500'
-                href='https://buy.stripe.com/dR6aH21pj4Uz8zSdQU'
+                href='https://customlabo.official.ec/items/62961865'
               >
                 購入する
               </a>
@@ -116,7 +72,7 @@ const Skills = () => {
               <br />
               <a
                 className='ml2 text-blue-500'
-                href='https://buy.stripe.com/eVa4iE3xr1In3fycMP'
+                href='https://customlabo.official.ec/items/62961929'
               >
                 購入する
               </a>
@@ -129,7 +85,7 @@ const Skills = () => {
               <br />
               <a
                 className='ml2 text-blue-500'
-                href='https://buy.stripe.com/14k5mIaZT0EjeYgcMO'
+                href='https://customlabo.official.ec/items/62961975'
               >
                 購入する
               </a>
